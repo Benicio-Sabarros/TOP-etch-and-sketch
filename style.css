@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.pixel{
+    flex: 1;
+}
+
+#container{
+    width: 600px;
+    min-width: 600px;
+    height: 600px;
+    min-height: 600px;
+    background-color: darkgrey;
+    display: flex;
+    margin-top: 100px;
+    border: 5px solid transparent;
+  
+}
+
+input{
+    width: 250px;
+}
+
+label{
+    margin-top: 30px;
+}
